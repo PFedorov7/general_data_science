@@ -31,6 +31,5 @@ def compute_average(imlist):
 		except:
 			print (imname + '...skipped') 
 		averageim /= len(imlist)
-
 	# return average as uint8
 	return array(averageim, 'uint8')
